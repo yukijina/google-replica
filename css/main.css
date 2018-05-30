@@ -174,3 +174,27 @@ div.bottom ul.right li a {
   letter-spacing: 0.1px;
   font-size: 14px;
 }
+
+/* MEIDA QUERY */
+@media(max-width: 675px) {
+  div.searchBox input {
+    width: 400px;
+  }
+}
+
+@media(max-width: 525px) {
+  div.bottom ul.left {
+    float: none;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+  }
+
+  div.bottom ul.right {
+    display: none;
+  }
+
+  div.searchBox input {
+    width: 350px;
+  }
+}
